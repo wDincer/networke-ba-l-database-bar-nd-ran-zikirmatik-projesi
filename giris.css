@@ -1,0 +1,90 @@
+/* Genel Stil */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('ali-burhan-2HgHr60mWVo-unsplash-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Başlık Tasarımı */
+h1 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    letter-spacing: 3px;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Butonların Genel Stili */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: rgba(130, 175, 17, 0.9);
+    color: white;
+    font-size: 22px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    background-color: rgba(130, 175, 17, 1);
+}
+
+/* Butonlar Arası Düzen */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Buton Animasyonu */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Buton hover için efekt */
+button:hover {
+    background-color: #f1c40f;  /* Sarı tonunda değişim */
+    transform: scale(1.1);
+}
+
+/* Arka Plan Animasyonu */
+@keyframes backgroundAnim {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 105%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+/* Arka Plan Animasyonu */
+body {
+    animation: backgroundAnim 8s ease-in-out infinite;
+}

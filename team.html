@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="global.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            animation: slideIn 1s ease-in-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+            margin: 10px 0;
+        }
+
+        li:nth-child(odd) {
+            color: #ffd700; /* Altın rengi */
+        }
+
+        li:nth-child(even) {
+            color: #ff4500; /* Turuncu kırmızımsı */
+        }
+
+        /* Animasyonlar */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animasyon sırasını ayarlamak için */
+        li:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        li:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        li:nth-child(3) {
+            animation-delay: 1s;
+        }
+
+        li:nth-child(4) {
+            animation-delay: 1.5s;
+        }
+
+        /* Geri butonu */
+        .back-button {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .back-button:hover {
+            background-color: #ffd700;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="color:#000">Emeği Geçenler</h1>
+        <ul>
+            <li>Enes Batur</li>
+            <li>Baturay Anar</li>
+            <li>Prenses Elif</li>
+            <li>Ahmet Dincer</li>
+        </ul>
+        <!-- Geri dönme butonu -->
+        <div style="display: flex;justify-content: center;">
+            <a href="index.html">
+                <button  class="back-button">Geri Dön</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
