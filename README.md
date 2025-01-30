@@ -17,25 +17,16 @@ Bu proje, kullanıcıların zikirmatik verilerini kaydedebildiği, bulut tabanl�
 
 
 ## Kurulum
-1. Depoyu klonlayı:
-   ```sh
-   git clone https://github.com/kullaniciAdi/zikirmatik-projesi.git
-   ```
-2. Gerekli bağımlılıkları yükleyin:
+1. Depoyu İndirin
+2. 
+3. Yerel kurulum için Xampp kurun.
+4. 
+5. Mysql içerisinde sql dosyasını içe aktarın.
+6. 
+7. Diğer dosyaları ise xampp klasörü içindeki htdocs klasörü içine yapıştırın
+8. 
+9. Sunucuyu başlatın:
 
-3. Veritabanını kurun ve .env dosyasını düzenleyin.
-4. Sunucuyu başlatın:
-   ```sh
-   npm start  # veya python manage.py runserver
-   ```
-
-## Kullanım
-1. Kullanıcı girişi yapın. Eğer hesabınız yok ise üye olun.
-2. 99 tane zikir arasından istediğiniz zikiri seçin. Zikirin adı, manası ve çektiğiniz kadar zikiri görün. Aşağıdaki buton ile zikirinizi arttırın.
-3. Li sistemi sayesinde kullanıcılar arasındaki farkı görün.
-
-## Katkıda Bulunma
-Katkıda bulunmak için lütfen bir **fork** oluşturun ve geliştirme yapıp **pull request** gönderin.
 
 ## Lisans
 Açık Kaynak
