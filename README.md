@@ -1,4 +1,4 @@
-# Network'e Bağli, Database Barindiran Zikirmatik Projesi
+# Network'e Bagli, Database Barindiran Zikirmatik Projesi
 
 ## Proje Hakkında
 Bu proje, kullanıcıların zikirmatik verilerini kaydedebildiği, bulut tabanlı bir zikirmatik uygulamasıdır. Kullanıcılar girdikleri verileri saklayabilir, senkronize edebilir ve farklı cihazlardan erişim sağlayabilir.
