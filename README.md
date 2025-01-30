@@ -18,14 +18,10 @@ Bu proje, kullanıcıların zikirmatik verilerini kaydedebildiği, bulut tabanl�
 
 ## Kurulum
 1. Depoyu İndirin
-2. 
-3. Yerel kurulum için Xampp kurun.
-4. 
-5. Mysql içerisinde sql dosyasını içe aktarın.
-6. 
-7. Diğer dosyaları ise xampp klasörü içindeki htdocs klasörü içine yapıştırın
-8. 
-9. Sunucuyu başlatın:
+2. Yerel kurulum için Xampp kurun.
+3. Mysql içerisinde sql dosyasını içe aktarın.
+4. Diğer dosyaları ise xampp klasörü içindeki htdocs klasörü içine yapıştırın
+5. Sunucuyu başlatın:
 
 
 ## Lisans
